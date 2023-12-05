@@ -7,8 +7,8 @@
     <meta name="keywords" content="web, design, digital, marketing, customers, sales, business">
     <title>Portfolio</title>
 
-    <link rel="stylesheet" href="./CSS/stylesheet-header-footer.css" />
-    <link rel="stylesheet" href="./CSS/stylesheet-portofolio.css" />
+    <link rel="stylesheet" href="./CSS/stylesheetheaderfooter.css" />
+    <link rel="stylesheet" href="./CSS/stylesheetportofolio.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
@@ -17,23 +17,20 @@
         <!--Top Line-->
         <nav>
             <!--Logo-->
-            <a href="./index.html">WebStudio</a>
-            <a href="./index.html" class="logo">
-                <span class="logo-part1">Web</span>
-                <span class="logo-part2">Studio</span>
-            </a>
-            <!--Navigation menu-->
+            <a class="logo-link" href="./index.html"><span class="logo-link-part1">WEB</span><span class="logo-link-part2">STUDIO</span></a>
+
+            <!--Navigation Menu-->
                 <ul>
-                    <li><a href="./index.html">Studio</a></li>
-                    <li><a href="./portfolio.html">Portfolio</a></li>
-                    <li><a href="#Contacts">Contacts</a></li>
+                    <li class="navigation-menu-links"><a href="./index.html">Studio</a></li>
+                    <li class="navigation-menu-links"><a href="./portfolio.html">Portfolio</a></li>
+                    <li class="navigation-menu-links"><a href="#Contacts">Contacts</a></li>
                 </ul>
         </nav>
-        <!--Contact info-->
+        <!--Contact Info-->
         <address>
             <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                <li><a class="contact-links" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="contact-links" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
     </header>
@@ -43,49 +40,49 @@
         <!--Section Portfolio-->
         <section>
             <h2>Portfolio</h2>
-             <!--Navigation Menu for Portfolio-->
+             <!--Portfolio Filters-->
             <ul>
-                <li><a class="navigation-menu-for-portfolio" href="#All">All</a></li>
-                <li><a class="navigation-menu-for-portfolio" href="#Web Sites">Web Sites</a></li>
-                <li><a class="navigation-menu-for-portfolio" href="#App">App</a></li>
-                <li><a class="navigation-menu-for-portfolio" href="#Design">Design</a></li>
-                <li><a class="navigation-menu-for-portfolio" href="#Marketing">Marketing</a></li>
+                <li><a class="portfolio-filters" href="#All">All</a></li>
+                <li><a class="portfolio-filters" href="#Web Sites">Web Sites</a></li>
+                <li><a class="portfolio-filters" href="#App">App</a></li>
+                <li><a class="portfolio-filters" href="#Design">Design</a></li>
+                <li><a class="portfolio-filters" href="#Marketing">Marketing</a></li>
             </ul>
-            <!--Images-->
-            <table>
+            <!--Portfolio Cards-->
+            <table class="cards" >
                 <tbody>
                     <tr>
-                        <td><img class="cards-images-layout" src="./images/1bankingapp (1).jpg" alt="Banking App Interface Concept" width="360" height="300"/>
-                            <h3 class="cards-title-typography">Banking App Interface Concept</h3>
-                            <p class="paragraph-typography">App</p></td>
-                        <td><img class="cards-images-layout" src="./images/2cashlesspay (1).jpg" alt="Cashless Payment" width="360" height="300"/>
-                            <h3 class="cards-title-typography">Cashless Payment</h3>
-                            <p class="paragraph-typography">Marketing</p></td>
-                        <td><img class="cards-images-layout" src="./images/3meditationapp (1).jpg" alt="Meditation App" width="360" height="300"/>
-                            <h3 class="cards-title-typography">Meditation App</h3>
-                            <p class="paragraph-typography">App</p></td>
+                        <td><img class="cards-images" src="./images/1bankingapp (1).jpg" alt="Banking App Interface Concept" width="360" height="300"/>
+                            <h3 class="cards-title">Banking App Interface Concept</h3>
+                            <p class="cards-paragraph-typography">App</p></td>
+                        <td><img class="cards-images" src="./images/2cashlesspay (1).jpg" alt="Cashless Payment" width="360" height="300"/>
+                            <h3 class="cards-title">Cashless Payment</h3>
+                            <p class="cards-paragraph-typography">Marketing</p></td>
+                        <td><img class="cards-images" src="./images/3meditationapp (1).jpg" alt="Meditation App" width="360" height="300"/>
+                            <h3 class="cards-title">Meditation App</h3>
+                            <p class="cards-paragraph-typography">App</p></td>
                     </tr>
                     <tr>
-                        <td><img class="cards-images-layout" src="./images/4taxi (1).jpg" alt="Taxi Service" width="360" height="300"/>
-                            <h3 class="cards-title-typography">Taxi Service</h3>
-                            <p class="paragraph-typography">Marketing</p></td>
-                        <td><img class="cards-images-layout" src="./images/5screenillustration (1).jpg" alt="Screen Illustrations" width="360" height="300"/>
-                            <h3 class="cards-title-typography">Screen Illustrations</h3>
-                            <p class="paragraph-typography">Design</p></td>
-                        <td><img class="cards-images-layout" src="./images/6onlinecouses (1).jpg" alt="Online Courses" width="360" height="300"/>
-                            <h3 class="cards-title-typography">Online Courses</h3>
-                            <p class="paragraph-typography">Marketing</p></td>
+                        <td><img class="cards-images" src="./images/4taxi (1).jpg" alt="Taxi Service" width="360" height="300"/>
+                            <h3 class="cards-title">Taxi Service</h3>
+                            <p class="cards-paragraph-">Marketing</p></td>
+                        <td><img class="cards-images" src="./images/5screenillustration (1).jpg" alt="Screen Illustrations" width="360" height="300"/>
+                            <h3 class="cards-title">Screen Illustrations</h3>
+                            <p class="cards-paragraph-typography">Design</p></td>
+                        <td><img class="cards-images" src="./images/6onlinecouses (1).jpg" alt="Online Courses" width="360" height="300"/>
+                            <h3 class="cards-title">Online Courses</h3>
+                            <p class="cards-paragraph">Marketing</p></td>
                     </tr>
                     <tr>
-                        <td><img class="cards-images-layout" src="./images/7instagramstories (1).jpg" alt="Instagram Stories Concept" width="360" height="300"/>
-                            <h3 class="cards-title-typography">Instagram Stories Concept</h3>
-                            <p class="paragraph-typography">Design</p></td>
-                        <td><img class="cards-images-layout" src="./images/8organicfood (1).jpg" alt="Organic Food" width="360" height="300"/>
-                            <h3 class="cards-title--typography">Organic Food</h3>
-                            <p class="paragraph-typography">Web Site</p></td>
-                        <td><img class="cards-images-layout" src="./images/9freshcoffee (1).jpg" alt="Fresh Coffee" width="360" height="300"/>
-                            <h3 class="cards-title-typography">Fresh Coffee</h3>
-                            <p class="paragraph-typography">Web Site</p></td>
+                        <td><img class="cards-images" src="./images/7instagramstories (1).jpg" alt="Instagram Stories Concept" width="360" height="300"/>
+                            <h3 class="cards-title">Instagram Stories Concept</h3>
+                            <p class="cards-paragraph-typography">Design</p></td>
+                        <td><img class="cards-images" src="./images/8organicfood (1).jpg" alt="Organic Food" width="360" height="300"/>
+                            <h3 class="cards-title">Organic Food</h3>
+                            <p class="cards-paragraph-typography">Web Site</p></td>
+                        <td><img class="cards-images" src="./images/9freshcoffee (1).jpg" alt="Fresh Coffee" width="360" height="300"/>
+                            <h3 class="cards-title">Fresh Coffee</h3>
+                            <p class="cards-paragraph-typography">Web Site</p></td>
                     </tr>
                 </tbody>
             </table>
@@ -98,9 +95,10 @@
         <!--Footer-->
         <footer>
             <!--Logo-->
-            <a href="./index.html">WebStudio</a>
-            <!--Description-->
-            <p>
+            <a class="logo-link" href="./index.html"><span class="logo-link-part1">WEB</span><span class="logo-link-part2">STUDIO</span></a>
+            </a>
+            <!--Business Description-->
+            <p class="bussines-description">
             Increase the flow of customers and sales for your business with digital marketing &amp; growth solutions.
             </p>
         </footer>

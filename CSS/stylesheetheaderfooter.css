@@ -1,0 +1,61 @@
+
+a {
+    text-decoration: none;
+}
+
+/* Top line */
+nav {
+    background-color: white;
+}
+
+/* Logo */
+.logo-link {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.logo-link-part1 {
+    color: #4D5AE5;
+}
+
+.logo-link-part2 {
+    color: #2E2F42;
+}
+
+/* Navigation Menu */
+.navigation-menu-links {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+/* Contact Info */
+.contact-links {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
+/* Business Description */
+.bussines-description {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #F4F4FD;
+}
