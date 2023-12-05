@@ -1,0 +1,24 @@
+
+a {
+    text-decoration: none;
+}
+
+/* Stilizare pentru top line */
+nav {
+    background-color: white;
+}
+
+/* Stilizare logo */
+.logo {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo-part1 {
+    color: #4D5AE5;
+}
+
+.logo-part2 {
+    color: #2E2F42;
+}
