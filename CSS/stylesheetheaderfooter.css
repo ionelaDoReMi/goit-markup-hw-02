@@ -4,7 +4,7 @@ a {
 }
 
 /* Top line */
-nav {
+.top-line {
     background-color: white;
 }
 
@@ -17,14 +17,19 @@ nav {
     line-height: 21px;
     letter-spacing: 0.03em;
     text-align: left;
+    text-transform: uppercase;
 }
 
 .logo-link-part1 {
     color: #4D5AE5;
 }
 
-.logo-link-part2 {
+.logo-link-part2-header {
     color: #2E2F42;
+}
+
+.logo-link-part2-footer {
+    color: #F4F4FD;
 }
 
 /* Navigation Menu */
@@ -58,4 +63,8 @@ nav {
     letter-spacing: 0.02em;
     text-align: left;
     color: #F4F4FD;
+}
+
+.footer-background {
+    background-color: #2E2F42;
 }

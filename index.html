@@ -8,44 +8,44 @@
     <title>WEBSTUDIO</title>
 
     <link rel="stylesheet" href="./CSS/stylesheetheaderfooter.css" />
-    <link rel="stylesheet" href="./CSS/stylesheetportofolio.css" />
+    <link rel="stylesheet" href="./CSS/stylesheetindex.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <header>
+    <header class="top-line">
         <!--Top Line-->
         <nav>
             <!--Logo-->
-            <a class="logo-link" href="./index.html"><span class="logo-link-part1">WEB</span><span class="logo-link-part2">STUDIO</span></a>
+            <a class="logo-link" href="./index.html"><span class="logo-link-part1">web</span><span class="logo-link-part2">studio</span></a>
             <!--Navigation menu-->
-                <ul>
-                    <li><a class="navigation-menu-links" href="#Studio">Studio</a></li>
-                    <li><a class="navigation-menu-links" href="./portfolio.html">Portfolio</a></li>
-                    <li><a class="navigation-menu-links" href="#Contacts">Contacts</a></li>
-                </ul>
-        </nav>
-        <!--Contact info-->
-        <address>
             <ul>
-                <li><a class="contact-links" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="contact-links" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                <li><a class="navigation-menu-links" href="./index.html">Studio</a></li>
+                <li><a class="navigation-menu-links" href="./portfolio.html">Portfolio</a></li>
+                <li><a class="navigation-menu-links" href="#Contacts">Contacts</a></li>
             </ul>
-        </address>
+            <!--Contact info-->
+            <address>
+                <ul>
+                    <li><a class="contact-links" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="contact-links" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                </ul>
+            </address>
+        </nav>
     </header>
 
     <main>
         <!--Section 1 = Hero content-->
-        <section>
+        <section class="hero-content">
             <!--Title-->
             <h1>Effective Solutions for Your Business</h1>
             <!--Order Button-->
-            <button type="button">Order Service</button>
+            <div><button class="order-service-button" type="button">Order Service</button></div>
         </section>
 
         <!--Section 2-->
         <section>
-            <h2>Features</h2>
+            <h2 hidden>Features</h2>
             <ul>
                 <li>
                     <h3>Strategy</h3>
@@ -111,9 +111,9 @@
     </main>
 
         <!--Footer-->
-        <footer>
+        <footer class="footer-background">
             <!--Logo-->
-            <a class="logo-link" href="./index.html"><span class="logo-link-part1">WEB</span><span class="logo-link-part2">STUDIO</span></a>
+            <a class="logo-link" href="./index.html"><span class="logo-link-part1">web</span><span class="logo-link-part2-footer">studio</span></a>
             <!--Description-->
             <p class="bussines-description">
             Increase the flow of customers and sales for your business with digital marketing &amp; growth solutions.
