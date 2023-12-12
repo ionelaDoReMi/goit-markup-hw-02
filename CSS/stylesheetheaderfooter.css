@@ -42,6 +42,10 @@ a {
     text-align: left;
     color: #2E2F42;
 }
+.navigation-menu-links:hover,
+.navigation-menu-links:focus {
+    color: var(--brand-color)
+}
 
 /* Contact Info */
 .contact-links {

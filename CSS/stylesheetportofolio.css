@@ -1,6 +1,6 @@
-
+/*Global styles*/
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--body-font-family);
 }
 
 a {
@@ -11,10 +11,7 @@ ul {
     list-style-type: none;
 }
 
-ul {
-    display: flex;
-}
-
+/*Classes*/
 
 /* Portfolio Filters */
     .portfolio-filters {

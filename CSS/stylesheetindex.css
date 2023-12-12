@@ -1,3 +1,7 @@
+/*Global styles*/
+body {
+    font-family: var(--body-font-family);
+}
 
 a {
     text-decoration: none;
@@ -7,17 +11,17 @@ ul {
     list-style-type: none;
 }
 
+/*Classes*/
+
 .hero-content {
     background-color: #2E2F42;
 }
 
 
 
-
-
 h1 {
     text-align: center;
-    color: #FFFFFF;
+    color: var(light-color-header);
 }
 
 h2 {
