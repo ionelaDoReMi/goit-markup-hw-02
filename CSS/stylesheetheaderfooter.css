@@ -5,13 +5,14 @@ a {
 
 /* Top line */
 .top-line {
-    background-color: white;
+    background-color: var(--light-color-header);
+    border: var(--light-color-borders);
 }
 
 /* Logo */
 .logo-link {
     text-decoration: none;
-    font-family: Raleway;
+    font-family: var(--logo-font-family);
     font-size: 18px;
     font-weight: 800;
     line-height: 21px;
@@ -21,15 +22,15 @@ a {
 }
 
 .logo-link-part1 {
-    color: #4D5AE5;
+    color: var(--brand-color);
 }
 
 .logo-link-part2-header {
-    color: #2E2F42;
+    color: var(--dark-color-header-and-background);
 }
 
 .logo-link-part2-footer {
-    color: #F4F4FD;
+    color: var(--light-color-footer-and-borders);
 }
 
 /* Navigation Menu */
@@ -40,7 +41,7 @@ a {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #2E2F42;
+    color: var(--dark-color-header-and-background);
 }
 .navigation-menu-links:hover,
 .navigation-menu-links:focus {
@@ -55,7 +56,8 @@ a {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #434455;
+    color: var(--dark-color-header-and-background);
+    font-style: normal;
 }
 
 /* Business Description */
@@ -66,9 +68,9 @@ a {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #F4F4FD;
+    color: var(--light-color-footer-and-borders);
 }
 
 .footer-background {
-    background-color: #2E2F42;
+    background-color: var(--dark-color-header-and-background);
 }
