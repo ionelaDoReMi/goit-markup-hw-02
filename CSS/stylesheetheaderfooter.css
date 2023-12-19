@@ -11,18 +11,29 @@ a {
 
 /* Logo */
 .logo-link {
-    text-decoration: none;
+    color: var(--brand-color);
     font-family: var(--logo-font-family);
     font-size: 18px;
     font-weight: 800;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
     text-transform: uppercase;
 }
 
-.logo-link-part1 {
-    color: var(--brand-color);
+.link {
+    text-decoration: none;
+}
+
+.logo-link-part2 {
+    color: var(--dark-color-header-and-background);
+    font-family: var(--logo-font-family);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 .logo-link-part2-header {
@@ -34,18 +45,22 @@ a {
 }
 
 /* Navigation Menu */
-.navigation-menu-links {
+.list {
+    list-style: none;
+}
+
+.navigation-menu {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
     color: var(--dark-color-header-and-background);
 }
-.navigation-menu-links:hover,
-.navigation-menu-links:focus {
-    color: var(--brand-color)
+.navigation-menu:hover,
+.navigation-menu:focus {
+    color: var(--hover-focus-navigation-menu: #404bbf;)
 }
 
 /* Contact Info */
@@ -53,11 +68,16 @@ a {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    color: var(--dark-color-header-and-background);
+    color: var(--dark-color-paragrapf);
     font-style: normal;
+}
+
+.contact-links,
+.contact-links {
+    color: var(--hover-focus-navigation-menu: #404bbf;)
 }
 
 /* Business Description */
@@ -71,6 +91,6 @@ a {
     color: var(--light-color-footer-and-borders);
 }
 
-.footer-background {
+.footer {
     background-color: var(--dark-color-header-and-background);
 }
