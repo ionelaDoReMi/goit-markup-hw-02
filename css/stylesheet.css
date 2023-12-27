@@ -132,6 +132,13 @@ ul {
     color: #FFFFFF;
 }
 
+.title-section-three {
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.11;
+    text-transform: capitalize;
+}
+
 h2 {
     color: var(--dark-color-header-and-background);
     font-size: 36px;
@@ -168,12 +175,12 @@ p {
     height: 56px;
     top: 428px;
     left: 636px;
-    padding: 16px, 32px, 16px, 32px;
+    padding: 16px 32px 16px 32px;
     gap: 10px;
     box-shadow: 0px 4px 4px 0px #00000026;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-style: 16px;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
@@ -240,10 +247,13 @@ a {
     color: var(--dark-color-header-and-background);
 }
 .navigation-menu:hover,
-.navigation-menu:focus,
+.navigation-menu:focus {
+    color: var(--hover-focus-navigation-menu);
+}
+
 .order-service-button:hover,
 .order-service-button:focus {
-    color: var(--hover-focus-navigation-menu);
+    background-color: var(--hover-focus-navigation-menu);
 }
 
 /* Contact Info */
