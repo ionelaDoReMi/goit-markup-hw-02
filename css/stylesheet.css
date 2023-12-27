@@ -212,7 +212,7 @@ a {
 
 /* Navigation Menu */
 .list {
-    list-style: none;
+    list-style-type: none;
 }
 
 .navigation-menu {
@@ -230,6 +230,10 @@ a {
 }
 
 /* Contact Info */
+.contact {
+    font-style: normal;
+}
+
 .contact-links {
     font-family: Roboto;
     font-size: 16px;
@@ -238,7 +242,6 @@ a {
     letter-spacing: 0.02em;
     text-align: left;
     color: var(--dark-color-paragrapf);
-    font-style: normal;
 }
 
 .contact-links,
