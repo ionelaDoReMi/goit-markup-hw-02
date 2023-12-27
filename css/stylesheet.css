@@ -126,8 +126,10 @@ ul {
     text-align: center;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: var(--light-color-header);
     font-weight: 700;
+}
+.color-white {
+    color: #FFFFFF;
 }
 
 h2 {
@@ -159,7 +161,6 @@ p {
 }
 
 .order-service-button {
-    color: var(--light-color-header);
     background-color: var(--brand-color);
     border-radius: 4px;
     border: none;
@@ -175,7 +176,6 @@ p {
     font-style: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
     cursor: pointer;
 }
 
