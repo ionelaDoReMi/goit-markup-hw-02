@@ -14,6 +14,165 @@ a {
     text-decoration: none;
 }
 
+/* Logo */
+.logo-link {
+    color: var(--brand-color);
+    font-family: var(--logo-font-family);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.logo-link-part2 {
+    color: var(--dark-color-header-and-background);
+    font-family: var(--logo-font-family);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.logo-link-part2-header {
+    color: var(--dark-color-header-and-background);
+}
+
+.logo-link-part2-footer {
+    color: var(--light-color-footer-and-borders);
+}
+
+/* Navigation Menu */
+.list {
+    list-style: none;
+}
+
+.navigation-menu {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--dark-color-header-and-background);
+}
+.navigation-menu:hover,
+.navigation-menu:focus {
+    color: var(--hover-focus-navigation-menu);
+}
+
+/* Contact Info */
+.contact-links {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--dark-color-paragrapf);
+    font-style: normal;
+}
+
+.contact-links,
+.contact-links {
+    color: var(--hover-focus-navigation-menu);
+}
+
+/* Business Description */
+.bussines-description {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--light-color-footer-and-borders);
+}
+
+.footer {
+    background-color: var(--dark-color-header-and-background);
+}
+
+/*Global styles*/
+body {
+    font-family: var(--body-font-family);
+    color: var(--dark-color-paragrapf);
+    background-color: var(--light-color-header);
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*Classes*/
+
+.hero-content {
+    background-color: var(--dark-color-header-and-background);
+}
+
+h1 {
+    color: var(--light-color-header);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0,2em;
+    text-align: center;
+}
+
+h2 {
+    color: var(--dark-color-header-and-background);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+h3 {
+    color: var(--dark-color-header-and-background);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+p {
+    color: var(--dark-color-paragrapf);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.order-service-button {
+    color: var(--light-color-header);
+    background-color: var(--brand-color);
+    border-radius: 4px;
+    border: none;
+    width: 169px;
+    height: 56px;
+    top: 428px;
+    left: 636px;
+    padding: 16px, 32px, 16px, 32px;
+    gap: 10px;
+    box-shadow: 0px 4px 4px 0px #00000026;
+}
+
+ul {
+    display: flex;
+}
+
+
+a {
+    text-decoration: none;
+}
+
 /* Top line */
 .top-line {
     background-color: var(--light-color-header);
@@ -102,10 +261,6 @@ a {
     background-color: var(--dark-color-header-and-background);
 }
 
-/*Global styles*/
-body {
-    font-family: var(--body-font-family);
-}
 
 ul {
     list-style-type: none;
@@ -126,7 +281,6 @@ ul {
         line-height: 48px;
         color: #4D5AE5;
         background-color: var(--light-color-logo-and-description);
-        font-family: var(--body-font-family);
         cursor: pointer;
         font-size: 16px;
         text-align: center;
@@ -146,7 +300,6 @@ ul {
 
     .cards-title {
         color: var(--dark-color-header-and-background);
-        font-family: var(--body-font-family);
         font-size: 20px;
         font-weight: 500;
         line-height: 24px;
@@ -158,7 +311,6 @@ ul {
 
     .cards-paragraph {
         color: var(--dark-color-paragrapf);
-        font-family: var(--body-font-family);
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
