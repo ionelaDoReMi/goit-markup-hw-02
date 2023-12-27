@@ -71,7 +71,7 @@ a {
 }
 .navigation-menu:hover,
 .navigation-menu:focus {
-    color: var(--hover-focus-navigation-menu)
+    color: var(--hover-focus-navigation-menu);
 }
 
 /* Contact Info */
@@ -88,7 +88,7 @@ a {
 
 .contact-links,
 .contact-links {
-    color: var(--hover-focus-navigation-menu)
+    color: var(--hover-focus-navigation-menu);
 }
 
 /* Business Description */
