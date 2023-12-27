@@ -98,9 +98,9 @@ a {
 
 /*Global styles*/
 body {
-    font-family: var(--body-font-family);
-    color: var(--dark-color-paragrapf);
-    background-color: var(--light-color-header);
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul {
