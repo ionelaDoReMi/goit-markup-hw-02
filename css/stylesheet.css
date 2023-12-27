@@ -20,9 +20,16 @@ body {
 ul {
     list-style-type: none;
 }
+.link {
+    text-decoration: none;
+}
 
 a {
     text-decoration: none;
+}
+
+.title {
+    background-color: #FFFFFF;
 }
 
 h2 {
@@ -50,7 +57,6 @@ p {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
-
 }
 
 ul {
@@ -58,7 +64,14 @@ ul {
 }
 
 /* Top Line */
+
+.top-line {
+    background-color: var(--light-color-header);
+    border: var(--light-color-borders);
+}
+
 /* Logo */
+
 .logo-link {
     color: var(--brand-color);
     font-family: var(--logo-font-family);
@@ -70,7 +83,8 @@ ul {
     text-transform: uppercase;
 }
 
-.logo-link-part2 {
+.logo-link-part2-header {
+    color: #f4f4f4fd;
     font-family: var(--logo-font-family);
     font-size: 18px;
     font-weight: 800;
@@ -80,15 +94,18 @@ ul {
     text-transform: uppercase;
 }
 
-.logo-link-part2-header {
-    color: var(--dark-color-header-and-background);
-}
-
 .logo-link-part2-footer {
-    color: var(--light-color-footer-and-borders);
+    color: #f4f4f4fd;
+    font-family: var(--logo-font-family);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
 }
 
-/* Navigation Menu */
+/* Navigation Menu Studio */
 .list {
     list-style: none;
 }
@@ -124,7 +141,7 @@ ul {
     color: var(--hover-focus-navigation-menu);
 }
 
-
+/* Sections Studio */
 /* Section 1 */
 .hero-content {
     background-color: var(--dark-color-header-and-background);
@@ -201,7 +218,7 @@ ul {
 /* Business Description */
 .bussines-description {
     color: var(--light-color-logo-and-description);
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -210,102 +227,7 @@ ul {
 }
 
 
-/* Top line */
-.top-line {
-    background-color: var(--light-color-header);
-    border: var(--light-color-borders);
-}
-
-/* Logo */
-.logo-link {
-    color: var(--brand-color);
-    font-family: var(--logo-font-family);
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-align: left;
-    text-transform: uppercase;
-}
-
-.logo-link-part2 {
-    color: var(--dark-color-header-and-background);
-    font-family: var(--logo-font-family);
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-align: left;
-    text-transform: uppercase;
-}
-
-.logo-link-part2-header {
-    color: var(--dark-color-header-and-background);
-}
-
-.logo-link-part2-footer {
-    color: #f4f4f4fd;
-}
-
-/* Navigation Menu */
-
-.navigation-menu {
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: var(--dark-color-header-and-background);
-}
-.navigation-menu:hover,
-.navigation-menu:focus {
-    color: var(--hover-focus-navigation-menu);
-}
-
-.order-service-button:hover,
-.order-service-button:focus {
-    background-color: var(--hover-focus-navigation-menu);
-}
-
-/* Contact Info */
-.list {
-    font-style: normal;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: var(--dark-color-paragrapf);
-}
-
-.contact-links,
-.contact-links {
-    color: var(--hover-focus-navigation-menu);
-}
-
-/* Business Description */
-.bussines-description {
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: var(--light-color-footer-and-borders);
-}
-
-.footer {
-    background-color: var(--dark-color-header-and-background);
-}
-
-
-ul {
-    list-style-type: none;
-}
-
-/*Classes*/
+/* Sections Portfolio*/
 
 /* Portfolio Filters */
     .portfolio-filters {
@@ -318,16 +240,20 @@ ul {
         text-align: center;
         text-decoration: none;
         line-height: 48px;
-        color: #4D5AE5;
+        color: var(--brand-color);
         background-color: var(--light-color-logo-and-description);
         cursor: pointer;
+        font-family: 'Roboto', sans-serif;
         font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
         text-align: center;
     }
     .portfolio-filters:hover,
     .portfolio-filters:focus{
-        color: var(--light-color-header);
-        background-color: #4D5AE5;
+        color:  #FFFFFFFF;
+        background-color: #404BBF;
         ;
     }
 
