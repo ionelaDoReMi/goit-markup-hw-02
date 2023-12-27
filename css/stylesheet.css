@@ -64,6 +64,15 @@ a {
     color: var(--hover-focus-navigation-menu);
 }
 
+.link {
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--hover-focus-navigation-menu);
+}
+
 /* Contact Info */
 .contact-links {
     font-family: Roboto;
@@ -230,11 +239,8 @@ a {
 }
 
 /* Contact Info */
-.contact {
+.list {
     font-style: normal;
-}
-
-.contact-links {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
