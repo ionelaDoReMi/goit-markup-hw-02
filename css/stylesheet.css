@@ -90,15 +90,21 @@ a {
     color: var(--hover-focus-navigation-menu);
 }
 
+/* Section 4 */
+.our-team {
+    background-color: var(--light-color-logo-and-description:)
+}
+
+/* Footer */
 /* Business Description */
 .bussines-description {
+    color: var(--light-color-logo-and-description:);
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
-    color: var(--light-color-footer-and-borders);
 }
 
 .footer {
@@ -132,11 +138,19 @@ ul {
     color: #FFFFFF;
 }
 
-.title-section-three {
+.title-sections {
     font-size: 36px;
     text-align: center;
     line-height: 1.11;
     text-transform: capitalize;
+}
+
+.title-our-team {
+    background-color: #FFFFFF;
+}
+
+.paragraph-our-team {
+    font-size: 16px;
 }
 
 h2 {
@@ -229,7 +243,7 @@ a {
 }
 
 .logo-link-part2-footer {
-    color: var(--light-color-footer-and-borders);
+    color: #f4f4f4fd;
 }
 
 /* Navigation Menu */
