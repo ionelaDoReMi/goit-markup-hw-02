@@ -128,11 +128,11 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    color: var(--dark-color-paragrapf);
     font-style: normal;
 }
 .contacts-links {
     background-color: var(--body-font-family);
+    color: var(--dark-color-paragrapf);
 }
 
 .contact-links:hover,
