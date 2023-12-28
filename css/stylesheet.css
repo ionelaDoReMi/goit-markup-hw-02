@@ -11,6 +11,23 @@
 }
 
 /*Global styles*/
+.padding {
+    padding: 15px 100px;
+}
+
+.padding-banner {
+   padding: 100px;
+}
+
+.display {
+    display: inline-block;
+}
+
+.header .list li {
+    display: inline-block;
+    padding: 20px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -130,6 +147,7 @@ ul {
     text-align: left;
     font-style: normal;
     color: var(--dark-color-paragrapf);
+    float: right;
 }
 .contacts-links {
     background-color: var(--body-font-family);
