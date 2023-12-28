@@ -80,7 +80,7 @@ ul {
 }
 
 .logo-link-second-part-header {
-    color: #f4f4f4fd;
+    color: var(--dark-color-header-and-background);
     font-family: var(--logo-font-family);
     font-size: 18px;
     font-weight: 800;
