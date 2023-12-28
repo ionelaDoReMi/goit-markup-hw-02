@@ -224,6 +224,11 @@ ul {
     margin-right: 42%;
 }
 
+.order-service-button:hover,
+.order-service-button:focus {
+    background-color: #404bbf ;
+}
+
 /* Section 2 */
 .title-features {
 
