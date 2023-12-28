@@ -124,6 +124,9 @@ ul {
     text-transform: uppercase;
 }
 
+.footer .logo-link .logo-link-second-part-footer {
+    color: #f4f4f4fd;
+}
 .logo-link-second-part-footer {
     font-family: var(--logo-font-family);
     font-size: 18px;
