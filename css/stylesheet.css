@@ -176,6 +176,10 @@ ul {
     color: var(--hover-focus-navigation-menu);
 }
 
+.color-blue {
+    color: var(--dark-color-paragrapf);
+}
+
 /* Sections Studio */
 /* Section 1 */
 .hero-content {
