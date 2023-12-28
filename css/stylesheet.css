@@ -28,14 +28,6 @@ a {
     text-decoration: none;
 }
 
-.title {
-    background-color: #FFFFFF;
-}
-
-h1 {
-    
-}
-
 h2 {
     color: var(--dark-color-header-and-background);
     font-size: 36px;
@@ -87,7 +79,7 @@ ul {
     text-transform: uppercase;
 }
 
-.logo-link-part2-header {
+.logo-link-second-part-header {
     color: #f4f4f4fd;
     font-family: var(--logo-font-family);
     font-size: 18px;
@@ -98,7 +90,7 @@ ul {
     text-transform: uppercase;
 }
 
-.logo-link-part2-footer {
+.logo-link-second-part-footer {
     color: #f4f4f4fd;
     font-family: var(--logo-font-family);
     font-size: 18px;
@@ -201,6 +193,14 @@ ul {
 }
 
 /* Section 4 */
+.background-white {
+    background-color: #FFFFFF;
+}
+
+.margin {
+    margin: 10px;
+}
+
 .our-team {
     background-color: var(--light-color-logo-and-description)
 }
@@ -213,6 +213,9 @@ ul {
     font-size: 16px;
 }
 
+.centered-text {
+    text-align: center;
+}
 
 /* Footer */
 .footer {
