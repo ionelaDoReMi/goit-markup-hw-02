@@ -126,7 +126,7 @@ ul {
 
 .logo-link-second-part-footer {
     font-family: var(--logo-font-family);
-    color: var(-light-color-logo-and-description);
+    color: var(--light-color-logo-and-description);
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -354,9 +354,4 @@ ul {
         text-align: left;
         width: 30px;;
         height: 24px
-    }
-
-
-    .footer-span-color {
-        color: #f4f4f4fd;
     }
