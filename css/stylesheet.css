@@ -45,6 +45,7 @@ ul {
 }
 .link {
     text-decoration: none;
+    color: var(--dark-color-paragrapf);
 }
 
 a {
