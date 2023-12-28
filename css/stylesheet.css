@@ -129,6 +129,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: left;
     font-style: normal;
+    color: var(--dark-color-paragrapf);
 }
 .contacts-links {
     background-color: var(--body-font-family);
