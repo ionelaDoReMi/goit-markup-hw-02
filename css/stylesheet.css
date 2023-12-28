@@ -131,6 +131,9 @@ ul {
     color: var(--dark-color-paragrapf);
     font-style: normal;
 }
+.contacts-links {
+    background-color: var(--body-font-family);
+}
 
 .contact-links:hover,
 .contact-links:focus {
@@ -220,6 +223,7 @@ ul {
 /* Footer */
 .footer {
     background-color: var(--dark-color-header-and-background);
+    padding: 100px;
 }
 
 /* Business Description */
@@ -231,6 +235,7 @@ ul {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
+    width: 30%;
 }
 
 
