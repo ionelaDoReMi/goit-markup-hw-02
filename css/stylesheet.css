@@ -123,8 +123,10 @@ ul {
     text-align: left;
     text-transform: uppercase;
 }
+
 .logo-link-second-part-footer {
     font-family: var(--logo-font-family);
+    color: #f4f4f4fd;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -133,9 +135,6 @@ ul {
     text-transform: uppercase;
 }
 
-.footer-span-color {
-    color: #f4f4f4fd;
-}
 
 /* Navigation Menu Studio */
 .list {
