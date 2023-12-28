@@ -126,7 +126,7 @@ ul {
 
 .logo-link-second-part-footer {
     font-family: var(--logo-font-family);
-    color: #f4f4f4fd;
+    color: var(-light-color-logo-and-description);
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
