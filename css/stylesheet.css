@@ -224,8 +224,8 @@ ul {
     margin-right: 42%;
 }
 
-.order-service-button:hover,
-.order-service-button:focus {
+.hover-focus:hover,
+.hover-focus:focus {
     background-color: #404bbf ;
 }
 
