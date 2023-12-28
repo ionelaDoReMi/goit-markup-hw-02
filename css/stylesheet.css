@@ -125,7 +125,6 @@ ul {
 }
 
 .logo-link-second-part-footer {
-    color: #f4f4f4fd;
     font-family: var(--logo-font-family);
     font-size: 18px;
     font-weight: 800;
@@ -133,6 +132,10 @@ ul {
     letter-spacing: 0.03em;
     text-align: left;
     text-transform: uppercase;
+}
+
+.white-logo {
+    color: #f4f4f4fd;
 }
 
 /* Navigation Menu Studio */
