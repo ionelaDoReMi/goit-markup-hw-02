@@ -41,24 +41,23 @@ h2 {
     letter-spacing: 0.02em;
 }
 
-
 h3 {
     color: var(--dark-color-header-and-background);
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2
     letter-spacing: 0.02em;
 }
-
 
 p {
     color: var(--dark-color-paragrapf);
     font-size: 16px;
     font-weight: 400;
+    line-height: 1.5
     letter-spacing: 0.02em;
 }
 
 /* Top Line */
-
 
 .top-line {
     background-color: var(--light-color-header);
@@ -73,6 +72,7 @@ p {
     font-family: var(--logo-font-family);
     font-size: 18px;
     font-weight: 800;
+    line-height: 1.17
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -105,6 +105,7 @@ p {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.02em;
+    line-height: 1.5
     color: var(--dark-color-header-and-background);
 }
 .navigation-menu:hover,
@@ -119,6 +120,7 @@ p {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.02em;
+    line-height: 1.5
     font-style: normal;
     color: var(--dark-color-paragrapf);
 }
@@ -146,6 +148,7 @@ p {
 .title-hero-content {
     color: #FFFFFF;
     font-size: 56px;
+    line-height: 1.07
     text-align: center;
     letter-spacing: 0.02em;
     font-weight: 700;
@@ -159,6 +162,7 @@ p {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5
     letter-spacing: 0.04em;
     cursor: pointer;
 }
@@ -172,6 +176,7 @@ p {
 /* Section 3 */
 .title-studio {
     font-size: 36px;
+    line-height: 1.11
     text-align: center;
     text-transform: capitalize;
 }
@@ -209,6 +214,7 @@ p {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.02em;
+    line-height: 1.5
 }
 
 
@@ -232,7 +238,7 @@ p {
     .portfolio-filters:focus{
         color:  #FFFFFFFF;
         background-color: #404BBF;
-        ;
+    }
     
 
 /* Portfolio Cards */
@@ -242,6 +248,7 @@ p {
         font-size: 20px;
         font-weight: 500;
         letter-spacing: 0.02em;
+        line-height: 1.2;
     }
 
     .cards-paragraph {
@@ -249,5 +256,6 @@ p {
         font-size: 16px;
         font-weight: 400;
         letter-spacing: 0.02em;
+        line-height: 1.5;
     }
 
