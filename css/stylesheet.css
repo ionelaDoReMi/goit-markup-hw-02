@@ -17,7 +17,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    margin: 0;
 }
 
 
@@ -40,7 +39,6 @@ h2 {
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 0.02em;
-    text-align: center;
 }
 
 
@@ -49,7 +47,6 @@ h3 {
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.02em;
-    text-align: .;
 }
 
 
@@ -58,11 +55,6 @@ p {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.02em;
-}
-
-
-ul {
-    justify-content: center;
 }
 
 /* Top Line */
@@ -76,7 +68,6 @@ ul {
 
 /* Logo */
 
-
 .logo-link {
     color: var(--brand-color);
     font-family: var(--logo-font-family);
@@ -85,7 +76,6 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-
 
 .logo-link-second-part-header {
     color: var(--dark-color-header-and-background);
@@ -96,24 +86,19 @@ ul {
     text-transform: uppercase;
 }
 
-
 .logo-link-second-part-footer {
     font-family: var(--logo-font-family);
-    color: #f4f4f4fd;
+    color: var(--light-color-logo-and-description);
     font-size: 18px;
     font-weight: 800;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-
-
-
 /* Navigation Menu Studio */
 .list {
     list-style: none;
 }
-
 
 .navigation-menu {
     font-family: 'Roboto', sans-serif;
@@ -136,24 +121,20 @@ ul {
     letter-spacing: 0.02em;
     font-style: normal;
     color: var(--dark-color-paragrapf);
-    float: right;
 }
 .contacts-links {
     background-color: var(--body-font-family);
     color: var(--dark-color-paragrapf);
 }
 
-
 .contact-links:hover,
 .contact-links:focus {
     color: var(--hover-focus-navigation-menu);
 }
 
-
 .color-blue {
     color: var(--dark-color-paragrapf);
 }
-
 
 /* Sections Studio */
 /* Section 1 */
@@ -161,7 +142,6 @@ ul {
     background-color: var(--dark-color-header-and-background);
 }
     /* Title */
-
 
 .title-hero-content {
     color: #FFFFFF;
@@ -171,15 +151,11 @@ ul {
     font-weight: 700;
 }
 
-
     /* Order Button */
-
 
 .order-service-button {
     background-color: var(--brand-color);
     color: #FFFFFF;
-    border: none;
-    padding: 16px 32px 16px 32px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -193,28 +169,11 @@ ul {
     background-color: #404bbf ;
 }
 
-
-/* Section 2 */
-.title-features {
-
-
-}
-
-
-.paragraph-features {
-
-
-}
-
-
-
-
 /* Section 3 */
 .title-studio {
     font-size: 36px;
     text-align: center;
     text-transform: capitalize;
-    margin-bottom: 60px; ;
 }
 
 /* Section 4 */
@@ -222,37 +181,26 @@ ul {
     background-color: #FFFFFF;
 }
 
-
-.margin {
-    margin: 10px;
-}
-
-
 .our-team {
     background-color: var(--light-color-logo-and-description)
 }
-
 
 .title-our-team {
     background-color: #FFFFFF;
 }
 
-
 .paragraph-our-team {
     font-size: 16px;
 }
-
 
 .centered-text {
     text-align: center;
 }
 
-
 /* Footer */
 .footer {
     background-color: var(--dark-color-header-and-background);
 }
-
 
 /* Business Description */
 .bussines-description {
@@ -264,10 +212,7 @@ ul {
 }
 
 
-
-
 /* Sections Portfolio*/
-
 
 /* Portfolio Filters */
     .portfolio-filters {
@@ -298,7 +243,6 @@ ul {
         font-weight: 500;
         letter-spacing: 0.02em;
     }
-
 
     .cards-paragraph {
         color: var(--dark-color-paragrapf);
